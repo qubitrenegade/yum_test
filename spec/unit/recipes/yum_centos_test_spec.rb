@@ -16,5 +16,9 @@ describe 'test_yum::yum_centos_test' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
+
+    it 'includes yum-centos' do
+      expect(chef_run).to include_recipe('yum-centos::default')
+    end
   end
 end

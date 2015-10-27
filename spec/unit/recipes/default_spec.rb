@@ -16,5 +16,12 @@ describe 'test_yum::default' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
+    
+    %w(yum yum-centos yum-epel).each do |recipe|
+      it "includes recipe: #{recipe}" do
+        expect(chef_run).to include(recipe)
+      end
+    end
+
   end
 end

@@ -16,5 +16,9 @@ describe 'test_yum::yum_test' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
+
+    it 'includes yum recipe' do
+      expect(chef_run).to include_recipe('yum::default')
+    end
   end
 end

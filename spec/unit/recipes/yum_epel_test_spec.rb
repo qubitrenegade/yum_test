@@ -16,5 +16,9 @@ describe 'test_yum::yum_epel_test' do
     it 'converges successfully' do
       expect { chef_run }.to_not raise_error
     end
+
+    it 'includes yum-epel' do
+      expect(chef_run).to include_recipe('yum-epel::default')
+    end
   end
 end
