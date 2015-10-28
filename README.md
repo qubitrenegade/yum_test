@@ -50,3 +50,4 @@ Failed examples:
 rspec ./spec/unit/recipes/default_spec.rb:16 # test_yum::default When all attributes are default, on an unspecified platform converges successfully
 rspec ./spec/unit/recipes/yum_centos_test_spec.rb:16 # test_yum::yum_centos_test When all attributes are default, on an unspecified platform converges successfully
 ```
+
