@@ -7,5 +7,6 @@ gem "kitchen-vagrant"
 
 
 gem 'rake'
-#gem 'foodcritic'
+gem 'foodcritic'
+gem 'chefspec'
 gem 'rspec'
