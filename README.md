@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/qubitrenegade/yum_test.png)](http://travis-ci.org/qubitrenegade/yum_test)
+
 # test_yum
 
 ## Description
