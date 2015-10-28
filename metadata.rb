@@ -1,4 +1,4 @@
-name 'test_yum'
+name 'yum_test'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'all_rights'
